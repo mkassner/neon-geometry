@@ -1,5 +1,5 @@
 # neon geometry
-Reference CAD files for NEON integrations
+Reference CAD files for NEON integrations together with a pin-out for the 2x3pin connectors used for the module.
 
 Use the reference files in this repository to design your own NEON integrations!
 
@@ -7,9 +7,11 @@ Use the reference files in this repository to design your own NEON integrations!
 
 `NEON_JAN_frame_reference.step` - A 3d model of the "Just act natural" frame, can be used to understand, where the module should sit relative to the wearers face.
 
-`NEON_Module_reference.step` - A 3d model of the NEON module and 
+`NEON_Module_reference.step` - A 3d model of the NEON module 
 
-`NEON_Bare_Metal_Nest_reference.step` - A 3d model of the NEON nest pcb also know as 'bare metal'. The 'Bare Metal' nest pcb comes with a USB-C cable attached. You can desolder and attach your own cable if needed.
+`NEON_Bare_Metal_Nest_interface.pdf` - A schematic of the nest that documents the pin-out of the module and the pogo connector we use.
+
+NEON_Bare_Metal_Nest_interface.step` - A 3d model of the NEON nest pcb also know as 'bare metal'. The 'Bare Metal' nest pcb comes with a USB-C cable attached. You can desolder and attach your own cable if needed.
 
 `Neon_reference.step` - All 3 files above in one file placed correctly to show how they come together. This files also includes the m2 screw fasteners used to fix the module to the nest.
 
